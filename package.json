@@ -1,0 +1,25 @@
+{
+  "name": "tms",
+  "version": "1.0.0",
+  "description": "temperature monitoring system",
+  "main": "index.js",
+  "scripts": {
+    "test": "'"
+  },
+  "keywords": [
+    "iot",
+    "sensor",
+    "monitoring",
+    "aws"
+  ],
+  "author": "kunyuan huang bach le",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "socket.io": "^2.2.0"
+  }
+}
