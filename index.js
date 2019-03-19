@@ -23,7 +23,7 @@ const device = awsIot.device({
   certPath: '/Users/kunhuang/KPU/INFO 4381 Internet of Thing Apps/IoT Project/cc9ebcc769-certificate.pem.crt',
     caPath: '/Users/kunhuang/KPU/INFO 4381 Internet of Thing Apps/IoT Project/CA.pem',
   clientId: 'TemperatureMonitor',
-      host: 'a39keex8gmhhx-ats.iot.us-west-2.amazonaws.com'
+      host: ''
 });
 
 //handlebars front end framework
@@ -72,7 +72,7 @@ device
     console.log("topic",topic);
     console.log("mqtt patload",payload.toString());
     // io.sockets.emit('new_message', {message : payload.toString()})
-    //if or switch case to route topics 
+    //if or switch case to route topics
   });
 
 io.on('connection', (socket)=>{
