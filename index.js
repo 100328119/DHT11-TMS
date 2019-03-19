@@ -23,7 +23,7 @@ const device = awsIot.device({
   certPath: '/Users/kunhuang/KPU/INFO 4381 Internet of Thing Apps/IoT Project/cc9ebcc769-certificate.pem.crt',
     caPath: '/Users/kunhuang/KPU/INFO 4381 Internet of Thing Apps/IoT Project/CA.pem',
   clientId: 'TemperatureMonitor',
-      host: ''
+      host: 'a39keex8gmhhx-ats.iot.us-west-2.amazonaws.com'
 });
 
 //handlebars front end framework
